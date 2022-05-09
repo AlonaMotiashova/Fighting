@@ -1,8 +1,9 @@
-﻿using Fighting.Heroes.Abstract;
+﻿using System;
+using Fighting.Heroes.Abstract;
 
 namespace Fighting.Heroes.Concrete
 {
-    public class Human : Hero
+    public class Human : CompetitiveHero
     {
         public Human(string name, int healthPoints) : base(name, healthPoints)
         {
@@ -10,5 +11,10 @@ namespace Fighting.Heroes.Concrete
         }
 
         public override string Exclaim() => "I'm a the best warrior";
+        
+        public override void TakePartInTournament()
+        {
+            Console.WriteLine($"I`m, {Name}, the greatest warrior in the world. I will definitely win");
+        }
     }
 }
