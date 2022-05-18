@@ -7,5 +7,10 @@
         public static string defaultShield = "default shield";
         public static string fineShield = "fine shield";
         public static string mud = "mud";
+        public const int fineShieldDefend = 10;
+        public const int defaultShieldDefend = 5;
+        public const int shitAndSticksDefend = 1;
+        public const int magicShieldDefend = 10;
+        public const int mudDefend = 0;
     }
 }

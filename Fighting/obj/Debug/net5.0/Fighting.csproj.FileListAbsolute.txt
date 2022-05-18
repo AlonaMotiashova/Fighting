@@ -1,0 +1,16 @@
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\Fighting.deps.json
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\Fighting.dll
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\ref\Fighting.dll
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\Fighting.pdb
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.AssemblyInfoInputs.cache
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.AssemblyInfo.cs
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.csproj.CoreCompileInputs.cache
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.dll
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\ref\Fighting.dll
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.pdb
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.csproj.AssemblyReference.cache
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\Fighting.exe
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\Fighting.runtimeconfig.json
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\bin\Debug\net5.0\Fighting.runtimeconfig.dev.json
+C:\Users\iryna.onyshkevych\OneDrive - Valtech\Bureau\Mentoring\Fighting\Fighting\obj\Debug\net5.0\Fighting.genruntimeconfig.cache
