@@ -3,29 +3,27 @@ using System;
 
 namespace Fighting
 {
-    class Program
+    class Game
     {
         static void Main(string[] args)
         {
-            var humanWeapon = new Weapon(WeaponConstants.hammer, WeaponConstants.hammerDamage);
+            var humanWeapon = new Weapon(WeaponConstants.knife, WeaponConstants.knifeDamage);
             var elfWeapon = new Weapon(WeaponConstants.flockOfBirds, WeaponConstants.flockOfBirdsDamage);
             var humanShield = new Shield(ShieldConstants.defaultShield, ShieldConstants.defaultShieldDefend);
             var elfShield = new Shield(ShieldConstants.fineShield, ShieldConstants.fineShieldDefend);
 
             var human = new Human(humanWeapon, humanShield, "Human");
             var elf = new Elf(elfWeapon, elfShield, "Elf");
-            var damage = human.Attack(human.name);
-            elf.Defend(damage, elf.shield);
+            var damage = human.Attack(human.Name);
+            elf.Defend(damage, elf.Shield);
 
-
-            var Dagger = new Subject("Dagger", 10000, "Out Of Stock");
-            var creature1 = new Human("Human", Dagger);
-            var creature2 = new Elf("Elf", Dagger);
-            var creature3 = new Dwarf("Dwarf", Dagger);
-            Console.WriteLine("Dagger current state : " + Dagger.getAvailability());
+            var Dagger = new WeaponStore("Dagger", 10000, "Out Of Stock");
+            var firstCreature = new Human("Human", Dagger);
+            var secondCreature = new Elf("Elf", Dagger);
+            var thirdCreature = new Dwarf("Dwarf", Dagger);
+            Console.WriteLine("Dagger current state : " + Dagger.GetAvailability());
             Console.WriteLine();
-            // Now product is available
-            Dagger.setAvailability("Available");
+            Dagger.SetAvailability("Available");
         }
     }
 }
