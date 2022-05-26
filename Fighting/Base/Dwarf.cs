@@ -9,14 +9,11 @@ namespace Fighting
         {
         }
 
-        public Dwarf(string userName, ISubject subject)
-            : base(userName, subject)
-        {
-        }
         /// <summary>
         /// Exclaim when the enemy hits.
         /// </summary>
         /// <returns></returns>
-        public override string Exclaim() => ExclaimConstants.dwarfExclaim;
+        public override string Exclaim() => ExclaimConstants.DwarfExclaim;
+        public override int ArmyLifeNumber()=> ArmyLifeNumberConstants.DwarfArmyLifeNumber;
     }
 }

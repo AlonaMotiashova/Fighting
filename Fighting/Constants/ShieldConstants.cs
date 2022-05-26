@@ -2,15 +2,15 @@
 {
     public static class ShieldConstants
     {
-        public static string magicShield = "magic fire shield";
-        public static string shitAndSticks = "shit and sticks";
-        public static string defaultShield = "default shield";
-        public static string fineShield = "fine shield";
-        public static string mud = "mud";
-        public const int fineShieldDefend = 10;
-        public const int defaultShieldDefend = 5;
-        public const int shitAndSticksDefend = 1;
-        public const int magicShieldDefend = 10;
-        public const int mudDefend = 0;
+        public static string MagicShield = "magic fire shield";
+        public static string ShitAndSticks = "shit and sticks";
+        public static string DefaultShield = "default shield";
+        public static string FineShield = "fine shield";
+        public static string Mud = "mud";
+        public const int FineShieldDefend = 10;
+        public const int DefaultShieldDefend = 5;
+        public const int ShitAndSticksDefend = 1;
+        public const int MagicShieldDefend = 10;
+        public const int MudDefend = 0;
     }
 }

@@ -10,14 +10,15 @@ namespace Fighting
         {
         }
 
-        public Elf(string userName, ISubject subject)
-            : base(userName, subject)
-        {
-        }
+        //public Elf(string userName, ISubject subject)
+        //    : base(userName, subject)
+        //{
+        //}
         /// <summary>
         /// Exclaim when the enemy hits.
         /// </summary>
         /// <returns></returns>
-        public override string Exclaim() => ExclaimConstants.elfExclaim;
+        public override string Exclaim() => ExclaimConstants.ElfExclaim;
+        public override int ArmyLifeNumber() => ArmyLifeNumberConstants.ElfArmyLifeNumber;
     }
 }

@@ -3,18 +3,14 @@ using System;
 
 namespace Fighting
 {
-    public abstract class Creature : IObserver
+    public abstract class Creature
     {
         public int Health { get; set; }
         public string Name { get; set; }
         public Weapon Weapon { get; set; }
         public Shield Shield { get; set; }
 
-        public Creature(string userName, ISubject subject)
-        {
-            Name = userName;
-            subject.RegisterObserver(this);
-        }
+        public abstract int ArmyLifeNumber();
 
         public Creature(Weapon weapon, Shield shield, string name)
         {
@@ -24,20 +20,26 @@ namespace Fighting
             Health = 100;
         }
 
+        public Creature(string name)
+        {
+            Name = name;
+          
+        }
+
         public int Attack(string defenderName)
         {
             if (!string.IsNullOrEmpty(Weapon.Name))
             {
 
-                if (Weapon.Name == WeaponConstants.spell)
+                if (Weapon.Name == WeaponConstants.Spell)
                 {
                     Console.WriteLine($"{Name} hit {defenderName} with a spell on diarrhea.");
                 }
-                else if (Weapon.Name == WeaponConstants.flockOfBirds)
+                else if (Weapon.Name == WeaponConstants.FlockOfBirds)
                 {
                     Console.WriteLine($"{Name} attacked {defenderName} with a flock of birds.");
                 }
-                else if (Weapon.Name == WeaponConstants.knife)
+                else if (Weapon.Name == WeaponConstants.Knife)
                 {
                     Console.WriteLine($"{Name} cut the {defenderName} with a knife.");
                 }
@@ -49,15 +51,15 @@ namespace Fighting
 
         public void Defend(int damage, Shield shield)
         {
-            if (shield.Name == ShieldConstants.magicShield)
+            if (shield.Name == ShieldConstants.MagicShield)
             {
                 Console.WriteLine($"{Name} protected themselves with a magic fire shield and fired the enemy`s ass a bit.");
             }
-            else if (shield.Name == ShieldConstants.defaultShield)
+            else if (shield.Name == ShieldConstants.DefaultShield)
             {
                 Console.WriteLine($"{Name} protected themselves with a default shield.");
             }
-            else if (shield.Name == ShieldConstants.mud)
+            else if (shield.Name == ShieldConstants.Mud)
             {
                 Console.WriteLine($"Did {Name} really try to protect themselves with mud????");
             }

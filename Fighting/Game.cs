@@ -7,23 +7,17 @@ namespace Fighting
     {
         static void Main(string[] args)
         {
-            var humanWeapon = new Weapon(WeaponConstants.knife, WeaponConstants.knifeDamage);
-            var elfWeapon = new Weapon(WeaponConstants.flockOfBirds, WeaponConstants.flockOfBirdsDamage);
-            var humanShield = new Shield(ShieldConstants.defaultShield, ShieldConstants.defaultShieldDefend);
-            var elfShield = new Shield(ShieldConstants.fineShield, ShieldConstants.fineShieldDefend);
+            var humanWeapon = new Weapon(WeaponConstants.Knife, WeaponConstants.KnifeDamage);
+            var elfWeapon = new Weapon(WeaponConstants.FlockOfBirds, WeaponConstants.FlockOfBirdsDamage);
+            var humanShield = new Shield(ShieldConstants.DefaultShield, ShieldConstants.DefaultShieldDefend);
+            var elfShield = new Shield(ShieldConstants.FineShield, ShieldConstants.FineShieldDefend);
 
-            var human = new Human(humanWeapon, humanShield, "Human");
-            var elf = new Elf(elfWeapon, elfShield, "Elf");
-            var damage = human.Attack(human.Name);
-            elf.Defend(damage, elf.Shield);
-
-            var Dagger = new WeaponStore("Dagger", 10000, "Out Of Stock");
-            var firstCreature = new Human("Human", Dagger);
-            var secondCreature = new Elf("Elf", Dagger);
-            var thirdCreature = new Dwarf("Dwarf", Dagger);
-            Console.WriteLine("Dagger current state : " + Dagger.GetAvailability());
-            Console.WriteLine();
-            Dagger.SetAvailability("Available");
+            //var human = new Human(humanWeapon, humanShield, "Human");
+            Creature elf = new Elf(elfWeapon, elfShield, "Elf");
+            elf = new ShortLivingElf(elf);
+            Console.WriteLine("Elf name: "+ elf.Name);
+            Console.WriteLine(elf.Exclaim());
+            Console.WriteLine("Elf army Life Number: "+ elf.ArmyLifeNumber().ToString());
         }
     }
 }

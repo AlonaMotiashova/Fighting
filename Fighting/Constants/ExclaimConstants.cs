@@ -2,8 +2,10 @@
 {
     public static class ExclaimConstants
     {
-        public static string elfExclaim = "Slaaaaay, bitch!";
-        public static string humanExclaim = "!";
-        public static string dwarfExclaim = "You`re not stronger than my mountains, bastard!";
+        public static string ElfExclaim = "Slaaaaay, bitch!";
+        public static string HumanExclaim = "!";
+        public static string DwarfExclaim = "You`re not stronger than my mountains, bastard!";
+        public static string LongLivingdwarfExclaim = "Special Long Living Dwarfs exclaim";
+        public static string ShortLivingElfExclaim = "Special Short Living Elfs exclaim";
     }
 }
