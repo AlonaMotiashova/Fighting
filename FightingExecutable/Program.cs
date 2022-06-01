@@ -1,9 +1,9 @@
 ﻿using Fighting.FightHandlers;
 using Fighting.Heralds;
+using Fighting.Heroes;
 using Fighting.Heroes.Abstract;
-using Fighting.Heroes.Concrete;
-using Fighting.Weapons.Concrete;
 using Fighting.Shields.Concrete;
+using Fighting.Weapons;
 
 CompetitiveHero hero = new Human("John", 100);
 hero.Weapon = new Knife(4, "Knife of Dark princes");

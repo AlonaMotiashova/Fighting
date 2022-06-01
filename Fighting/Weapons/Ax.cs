@@ -1,17 +1,19 @@
 ﻿using System;
 using Fighting.Weapons.Abstract;
 
-namespace Fighting.Weapons.Concrete
+namespace Fighting.Weapons
 {
-    internal class Ax : Weapon
+    public class Ax : Weapon
     {
+        private const string HarmPhrase = "The ax is hacking";
+
         public Ax(int damage, string weaponName) : base(damage, weaponName)
         {
         }
 
         public override int Harm()
         {
-            Console.WriteLine("The ax is hacking");
+            Console.WriteLine(HarmPhrase);
             return Damage;
         }
     }

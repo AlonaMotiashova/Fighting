@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net6.0": {
+      "Fighting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Fighting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fighting.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Fighting/1.0.0": {
+      "type": "project",
+      "path": "../Fighting/Fighting.csproj",
+      "msbuildProject": "../Fighting/Fighting.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net6.0": [
+      "Fighting >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kyrylo.sokyrka\\.nuget\\packages\\": {}
@@ -13,27 +32,31 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\Fighting\\Fighting.csproj",
-      "projectName": "Fighting",
-      "projectPath": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\Fighting\\Fighting.csproj",
+      "projectUniqueName": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\FightingExecutable\\FightingExecutable.csproj",
+      "projectName": "FightingExecutable",
+      "projectPath": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\FightingExecutable\\FightingExecutable.csproj",
       "packagesPath": "C:\\Users\\kyrylo.sokyrka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\Fighting\\obj\\",
+      "outputPath": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\FightingExecutable\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kyrylo.sokyrka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "projectReferences": {}
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\Fighting\\Fighting.csproj": {
+              "projectPath": "C:\\Users\\kyrylo.sokyrka\\Projects\\Fighting\\Fighting\\Fighting.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -43,8 +66,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",

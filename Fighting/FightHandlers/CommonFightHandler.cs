@@ -1,4 +1,5 @@
 ﻿using System;
+using Fighting.Heroes;
 using Fighting.Heroes.Abstract;
 
 namespace Fighting.FightHandlers

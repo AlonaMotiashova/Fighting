@@ -1,6 +1,6 @@
 ﻿using Fighting.Heroes.Abstract;
 
-namespace Fighting.Heroes.Concrete
+namespace Fighting.Heroes
 {
     public class Dwarf : Hero
     {

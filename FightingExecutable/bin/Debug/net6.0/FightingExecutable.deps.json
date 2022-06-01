@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FightingExecutable/1.0.0": {
+        "dependencies": {
+          "Fighting": "1.0.0"
+        },
+        "runtime": {
+          "FightingExecutable.dll": {}
+        }
+      },
+      "Fighting/1.0.0": {
+        "runtime": {
+          "Fighting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FightingExecutable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fighting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

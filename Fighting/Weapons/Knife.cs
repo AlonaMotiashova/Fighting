@@ -1,16 +1,19 @@
 ﻿using System;
+using Fighting.Weapons.Abstract;
 
-namespace Fighting.Weapons.Concrete
+namespace Fighting.Weapons
 {
-    public class Knife : Weapons.Abstract.Weapon
+    public class Knife : Weapon
     {
+        private const string HarmPhrase = "Knife is cutting";
+
         public Knife(int damage, string weaponName) : base(damage, weaponName)
         {
         }
 
         public override int Harm()
         {
-            Console.WriteLine("Knife is cutting");
+            Console.WriteLine(HarmPhrase);
             return Damage;
         }
     }

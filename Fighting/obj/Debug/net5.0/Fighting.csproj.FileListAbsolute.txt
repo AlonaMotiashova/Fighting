@@ -1,0 +1,12 @@
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\bin\Debug\net5.0\Fighting.deps.json
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\bin\Debug\net5.0\Fighting.dll
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\bin\Debug\net5.0\Fighting.pdb
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.csproj.AssemblyReference.cache
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.AssemblyInfoInputs.cache
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.AssemblyInfo.cs
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.csproj.CoreCompileInputs.cache
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.dll
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\refint\Fighting.dll
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\Fighting.pdb
+C:\Users\kyrylo.sokyrka\Projects\Fighting\Fighting\obj\Debug\net5.0\ref\Fighting.dll

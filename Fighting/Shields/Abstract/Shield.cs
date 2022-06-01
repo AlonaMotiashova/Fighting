@@ -11,6 +11,10 @@
         public string ShieldName { get; private set; }
         public int DamageResist { get; private set; }
 
-        public abstract int Protect(int damage);
+        public virtual int Protect(int damage)
+        {
+            var result = damage - DamageResist;
+            return result > 0 ? result : 0;
+        }
     }
 }
