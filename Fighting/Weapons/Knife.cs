@@ -1,20 +1,16 @@
-﻿using System;
-using Fighting.Weapons.Abstract;
+﻿using Fighting.Weapons.Abstract;
 
 namespace Fighting.Weapons
 {
     public class Knife : Weapon
     {
-        private const string HarmPhrase = "Knife is cutting";
+        private const string HarmPhrase = "The (name) is cutting";
 
         public Knife(int damage, string weaponName) : base(damage, weaponName)
         {
         }
 
-        public override int Harm()
-        {
-            Console.WriteLine(HarmPhrase);
-            return Damage;
-        }
+        public override (int, string) Harm() =>
+            (Damage, HarmPhrase.Replace("(name)", WeaponName));
     }
 }

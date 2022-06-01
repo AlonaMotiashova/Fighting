@@ -1,4 +1,6 @@
-﻿namespace Fighting.Weapons.Abstract
+﻿using System;
+
+namespace Fighting.Weapons.Abstract
 {
     public abstract class Weapon
     {
@@ -8,9 +10,9 @@
             WeaponName = weaponName;
         }
 
-        public string WeaponName { get; private set; }
-        public int Damage { get; private set; }
-        
-        public abstract int Harm();
+        public string WeaponName { get; protected set; }
+        public int Damage { get; protected set; }
+
+        public abstract (int, string) Harm();
     }
 }

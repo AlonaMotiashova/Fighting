@@ -1,20 +1,14 @@
-﻿using System;
-using Fighting.Weapons.Abstract;
+﻿using Fighting.Weapons.Abstract;
 
-namespace Fighting.Weapons
+namespace Fighting.Weapons;
+public class Ax : Weapon
 {
-    public class Ax : Weapon
+    private const string HarmPhrase = "The (name) is hacking";
+
+    public Ax(int damage, string weaponName) : base(damage, weaponName)
     {
-        private const string HarmPhrase = "The ax is hacking";
-
-        public Ax(int damage, string weaponName) : base(damage, weaponName)
-        {
-        }
-
-        public override int Harm()
-        {
-            Console.WriteLine(HarmPhrase);
-            return Damage;
-        }
     }
+
+    public override (int, string) Harm() =>
+        (Damage, HarmPhrase.Replace("(name)", WeaponName));
 }
