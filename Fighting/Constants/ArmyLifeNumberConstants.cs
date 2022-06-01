@@ -1,9 +1,9 @@
 ﻿namespace Fighting.Constants
 {
-    public static class ArmyLifeNumberConstants
+    public enum ArmyLifeNumberConstants
     {
-        public const int DwarfArmyLifeNumber = 10;
-        public const int ElfArmyLifeNumber = 1000;
-        public const int HumanArmyLifeNumber = 1;
+        DwarfArmy = 10,
+        ElfArmy = 1000,
+        HumanArmy = 1
     }
 }

@@ -7,12 +7,12 @@ namespace Fighting
     {
         static void Main(string[] args)
         {
-            var humanWeapon = new Weapon(WeaponConstants.Knife, WeaponConstants.KnifeDamage);
-            var elfWeapon = new Weapon(WeaponConstants.FlockOfBirds, WeaponConstants.FlockOfBirdsDamage);
-            var humanShield = new Shield(ShieldConstants.DefaultShield, ShieldConstants.DefaultShieldDefend);
-            var elfShield = new Shield(ShieldConstants.FineShield, ShieldConstants.FineShieldDefend);
+            var humanWeapon = new Weapon(WeaponConstants.Knife, (int)WeaponDamageConstants.Knife);
+            var elfWeapon = new Weapon(WeaponConstants.FlockOfBirds, (int)WeaponDamageConstants.FlockOfBirds);
+            var humanShield = new Shield(ShieldConstants.Default, (int)ShieldDefendConstants.DefaultShield);
+            var elfShield = new Shield(ShieldConstants.Fine, (int)ShieldDefendConstants.FineShield);
 
-            //var human = new Human(humanWeapon, humanShield, "Human");
+            var human = new Human(humanWeapon, humanShield, "Human");
             Creature elf = new Elf(elfWeapon, elfShield, "Elf");
             elf = new ShortLivingElf(elf);
             Console.WriteLine("Elf name: "+ elf.Name);

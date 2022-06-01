@@ -18,7 +18,7 @@ namespace Fighting
         /// Exclaim when the enemy hits.
         /// </summary>
         /// <returns></returns>
-        public override string Exclaim() => ExclaimConstants.ElfExclaim;
-        public override int ArmyLifeNumber() => ArmyLifeNumberConstants.ElfArmyLifeNumber;
+        public override string Exclaim() => ExclaimConstants.Elf;
+        public override int ArmyLifeNumber() => (int)ArmyLifeNumberConstants.ElfArmy;
     }
 }

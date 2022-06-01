@@ -13,7 +13,7 @@ namespace Fighting
         /// Exclaim when the enemy hits.
         /// </summary>
         /// <returns></returns>
-        public override string Exclaim() => ExclaimConstants.DwarfExclaim;
-        public override int ArmyLifeNumber()=> ArmyLifeNumberConstants.DwarfArmyLifeNumber;
+        public override string Exclaim() => ExclaimConstants.Dwarf;
+        public override int ArmyLifeNumber()=> (int)ArmyLifeNumberConstants.DwarfArmy;
     }
 }

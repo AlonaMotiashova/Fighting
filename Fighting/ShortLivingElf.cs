@@ -18,7 +18,7 @@ namespace Fighting
         }
         public override string Exclaim()
         {
-            return ExclaimConstants.ShortLivingElfExclaim;
+            return ExclaimConstants.ShortLivingElf;
         }
     }
 }

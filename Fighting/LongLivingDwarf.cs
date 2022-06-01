@@ -18,7 +18,7 @@ namespace Fighting
         }
         public override string Exclaim()
         {
-            return ExclaimConstants.LongLivingdwarfExclaim;
+            return ExclaimConstants.LongLivingdwarf;
         }
     }
 }
